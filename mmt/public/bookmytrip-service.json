@@ -1,0 +1,662 @@
+{
+  "Buses": [
+    {
+      "serviceID": 1,
+      "serviceName": "SRS Travels",
+      "locations": [
+        "RT101",
+        "RT102",
+        "RT103",
+        "RT109",
+        "RT110"
+      ]
+    },
+    {
+      "serviceID": 2,
+      "serviceName": "SRM Travels",
+      "locations": [
+        "RT101",
+        "RT102",
+        "RT104"
+      ]
+    },
+    {
+      "serviceID": 3,
+      "serviceName": "Royal Travels",
+      "locations": [
+        "RT101",
+        "RT102",
+        "RT103",
+        "RT105"
+      ]
+    },
+    {
+      "serviceID": 4,
+      "serviceName": "Orange Travels",
+      "locations": [
+        "RT103",
+        "RT104",
+        "RT105"
+      ]
+    },
+    {
+      "serviceID": 5,
+      "serviceName": "YBM Travels",
+      "locations": [
+        "RT103",
+        "RT104",
+        "RT105",
+        "RT106"
+      ]
+    },
+    {
+      "serviceID": 6,
+      "serviceName": "Parveen Travels",
+      "locations": [
+        "RT101",
+        "RT102",
+        "RT103",
+        "RT104",
+        "RT106"
+      ]
+    },
+    {
+      "serviceID": 7,
+      "serviceName": "Roshan Travels",
+      "locations": [
+        "RT104"
+      ]
+    },
+    {
+      "serviceID": 8,
+      "serviceName": "Swamy Ayyappa Travels",
+      "locations": [
+        "RT104"
+      ]
+    },
+    {
+      "serviceID": 9,
+      "serviceName": "Bharathi Travels",
+      "locations": [
+        "RT104",
+        "RT105"
+      ]
+    },
+    {
+      "serviceID": 10,
+      "serviceName": "Vivegam Travels",
+      "locations": [
+        "RT101",
+        "RT102",
+        "RT103"
+      ]
+    },
+    {
+      "serviceID": 11,
+      "serviceName": "National Travels",
+      "locations": [
+        "RT101",
+        "RT102",
+        "RT103"
+      ]
+    },
+    {
+      "serviceID": 12,
+      "serviceName": "Kallada Travels",
+      "locations": [
+        "RT101",
+        "RT102",
+        "RT103"
+      ]
+    },
+    {
+      "serviceID": 13,
+      "serviceName": "KPN Travels",
+      "locations": [
+        "RT101",
+        "RT102",
+        "RT103"
+      ]
+    },
+    {
+      "serviceID": 14,
+      "serviceName": "Dreamliner",
+      "locations": [
+        "RT101",
+        "RT102",
+        "RT103"
+      ]
+    },
+    {
+      "serviceID": 15,
+      "serviceName": "Transking Travels",
+      "locations": [
+        "RT101",
+        "RT102",
+        "RT103"
+      ]
+    },
+    {
+      "serviceID": 16,
+      "serviceName": "Dwaraka Travels",
+      "locations": [
+        "RT103",
+        "RT106"
+      ]
+    },
+    {
+      "serviceID": 17,
+      "serviceName": "Limoliner",
+      "locations": [
+        "RT106",
+        "RT108",
+        "RT109",
+        "RT110"
+      ]
+    },
+    {
+      "serviceID": 18,
+      "serviceName": "Kaveri Kamakshi",
+      "locations": [
+        "RT101",
+        "RT102",
+        "RT103"
+      ]
+    },
+    {
+      "serviceID": 19,
+      "serviceName": "Vignesh TAT Travels",
+      "locations": [
+        "RT101",
+        "RT102",
+        "RT103"
+      ]
+    },
+    {
+      "serviceID": 20,
+      "serviceName": "Greenline Travels",
+      "locations": [
+        "RT103",
+        "RT106",
+        "RT109",
+        "RT110"
+      ]
+    },
+    {
+      "serviceID": 21,
+      "serviceName": "Asian Xpress",
+      "locations": [
+        "RT103",
+        "RT106",
+        "RT109",
+        "RT110"
+      ]
+    },
+    {
+      "serviceID": 22,
+      "serviceName": "Mettur Superservice",
+      "locations": [
+        "RT103",
+        "RT106",
+        "RT109"
+      ]
+    },
+    {
+      "serviceID": 23,
+      "serviceName": "Evacay Travels",
+      "locations": [
+        "RT103",
+        "RT106",
+        "RT109",
+        "RT110"
+      ]
+    },
+    {
+      "serviceID": 24,
+      "serviceName": "Conti Travels",
+      "locations": [
+        "RT103",
+        "RT106",
+        "RT109",
+        "RT110"
+      ]
+    },
+    {
+      "serviceID": 25,
+      "serviceName": "Sri Krishna Travels",
+      "locations": [
+        "RT103",
+        "RT106",
+        "RT109",
+        "RT110"
+      ]
+    },
+    {
+      "serviceID": 26,
+      "serviceName": "Shrinath Travels",
+      "locations": [
+        "RT109",
+        "RT110",
+        "RT107",
+        "RT108"
+      ]
+    },
+    {
+      "serviceID": 27,
+      "serviceName": "JBR Travels",
+      "locations": [
+        "RT103",
+        "RT106",
+        "RT109",
+        "RT110"
+      ]
+    },
+    {
+      "serviceID": 28,
+      "serviceName": "RKK Travels",
+      "locations": [
+        "RT103",
+        "RT106",
+        "RT109",
+        "RT110"
+      ]
+    },
+    {
+      "serviceID": 29,
+      "serviceName": "AI Travels",
+      "locations": [
+        "RT103",
+        "RT106",
+        "RT109",
+        "RT110"
+      ]
+    }
+  ],
+  "Flights": [
+    {
+      "serviceID": 30,
+      "serviceName": "Indigo Airlines",
+      "locations": [
+        "RT201",
+        "RT202",
+        "RT203",
+        "RT210",
+        "RT211"
+      ]
+    },
+    {
+      "serviceID": 31,
+      "serviceName": "Qatar Airways",
+      "locations": [
+        "RT210",
+        "RT211",
+        "RT212"
+      ]
+    },
+    {
+      "serviceID": 32,
+      "serviceName": "Air India",
+      "locations": [
+        "RT201",
+        "RT202",
+        "RT203",
+        "RT212"
+      ]
+    },
+    {
+      "serviceID": 33,
+      "serviceName": "Air Asia",
+      "locations": [
+        "RT201",
+        "RT202",
+        "RT203",
+        "RT210",
+        "RT211",
+        "RT212"
+      ]
+    },
+    {
+      "serviceID": 34,
+      "serviceName": "Spice Jet Airlines",
+      "locations": [
+        "RT201",
+        "RT202",
+        "RT203",
+        "RT210"
+      ]
+    },
+    {
+      "serviceID": 35,
+      "serviceName": "Singapore Airlines",
+      "locations": [
+        "RT210",
+        "RT231",
+        "RT232"
+      ]
+    },
+    {
+      "serviceID": 36,
+      "serviceName": "Emirates",
+      "locations": [
+        "RT210",
+        "RT211",
+        "RT212",
+        "RT220"
+      ]
+    },
+    {
+      "serviceID": 37,
+      "serviceName": "Lufthansa",
+      "locations": [
+        "RT211",
+        "RT212",
+        "RT222"
+      ]
+    },
+    {
+      "serviceID": 38,
+      "serviceName": "Garuda Indonesia",
+      "locations": [
+        "RT231",
+        "RT232"
+      ]
+    },
+    {
+      "serviceID": 39,
+      "serviceName": "Thai Airways",
+      "locations": [
+        "RT231",
+        "RT233"
+      ]
+    },
+    {
+      "serviceID": 40,
+      "serviceName": "Jet Airways",
+      "locations": [
+        "RT201",
+        "RT202",
+        "RT203",
+        "RT210",
+        "RT211"
+      ]
+    },
+    {
+      "serviceID": 41,
+      "serviceName": "Etihad Airways",
+      "locations": [
+        "RT210",
+        "RT211",
+        "RT212"
+      ]
+    },
+    {
+      "serviceID": 42,
+      "serviceName": "United Airlines",
+      "locations": [
+        "RT220",
+        "RT221",
+        "RT222"
+      ]
+    },
+    {
+      "serviceID": 43,
+      "serviceName": "Cathay Pacific Airways",
+      "locations": [
+        "RT220",
+        "RT221",
+        "RT222"
+      ]
+    },
+    {
+      "serviceID": 44,
+      "serviceName": "Air Canada",
+      "locations": [
+        "RT220",
+        "RT221",
+        "RT222"
+      ]
+    },
+    {
+      "serviceID": 45,
+      "serviceName": "American Airlines",
+      "locations": [
+        "RT220",
+        "RT221",
+        "RT222"
+      ]
+    },
+    {
+      "serviceID": 46,
+      "serviceName": "British Airways",
+      "locations": [
+        "RT220",
+        "RT221",
+        "RT222"
+      ]
+    }
+  ],
+  "Hotels": [
+    {
+      "serviceID": 47,
+      "serviceName": "Hotel Mariott",
+      "locations": [
+        "Melbourne, Australia",
+        "Auckland, New Zealand",
+        "Dubai, UAE"
+      ]
+    },
+    {
+      "serviceID": 48,
+      "serviceName": "Hotel Mont",
+      "locations": [
+        "Geneva, Switzerland",
+        "Chicago, USA"
+      ]
+    },
+    {
+      "serviceID": 49,
+      "serviceName": "Hotel Taj",
+      "locations": [
+        "Mumbai, India",
+        "Maldives, India"
+      ]
+    },
+    {
+      "serviceID": 50,
+      "serviceName": "The Leela Palace",
+      "locations": [
+        "Bengaluru, India",
+        "Mumbai, India",
+        "New Delhi, India"
+      ]
+    },
+    {
+      "serviceID": 51,
+      "serviceName": "Hotel Daiwik",
+      "locations": [
+        "Rameshwaram, India"
+      ]
+    },
+    {
+      "serviceID": 52,
+      "serviceName": "Hyatt Residency",
+      "locations": [
+        "Hyderabad, India",
+        "Chennai, India",
+        "Bengaluru, India",
+        "Mumbai, India"
+      ]
+    },
+    {
+      "serviceID": 53,
+      "serviceName": "Holiday Inn",
+      "locations": [
+        "Chennai, India",
+        "Bengaluru, India",
+        "Mumbai, India",
+        "Doha, Qatar"
+      ]
+    },
+    {
+      "serviceID": 54,
+      "serviceName": "The Oberoi",
+      "locations": [
+        "Mumbai, India",
+        "Pune, India",
+        "Hyderabad, India",
+        "Bali, Indonesia",
+        "Port Louis, Mauritius"
+      ]
+    },
+    {
+      "serviceID": 55,
+      "serviceName": "Ritz Carlton",
+      "locations": [
+        "Bengaluru, India",
+        "Vienna, Austria",
+        "Berlin, Germany",
+        "Naples, USA",
+        "Dallas, USA"
+      ]
+    },
+    {
+      "serviceID": 56,
+      "serviceName": "Trident",
+      "locations": [
+        "Agra, India",
+        "Chennai, India",
+        "Kochi, India",
+        "Hyderabad, India",
+        "Jaipur, India"
+      ]
+    },
+    {
+      "serviceID": 57,
+      "serviceName": "Radisson Blu",
+      "locations": [
+        "Coimbatore, India",
+        "Mysore, India",
+        "Bengaluru, India",
+        "Kochi, India",
+        "Goa, India",
+        "Nagpur, India"
+      ]
+    },
+    {
+      "serviceID": 58,
+      "serviceName": "Lemon Tree",
+      "locations": [
+        "Jaipur, India",
+        "New Delhi, India",
+        "Bengaluru, India",
+        "Hyderabad, India",
+        "Dubai, UAE",
+        "Jammu, India"
+      ]
+    },
+    {
+      "serviceID": 59,
+      "serviceName": "Rain Tree",
+      "locations": [
+        "Chennai, India"
+      ]
+    },
+    {
+      "serviceID": 60,
+      "serviceName": "ITC Grand Chola",
+      "locations": [
+        "Chennai, India",
+        "Bengaluru, India",
+        "Goa, India",
+        "Coimbatore, India",
+        "Agra, India",
+        "Kolkata, India"
+      ]
+    },
+    {
+      "serviceID": 61,
+      "serviceName": "Crowne Plaza",
+      "locations": [
+        "Doha, Qatar",
+        "Sydney, Australia",
+        "Jurong, Singapore",
+        "Dubai, UAE"
+      ]
+    },
+    {
+      "serviceID": 62,
+      "serviceName": "Hilton",
+      "locations": [
+        "New York, USA",
+        "Hawaii, USA",
+        "Agra, India",
+        "Goa, India",
+        "Bengaluru, India",
+        "Chennai, India"
+      ]
+    }
+  ],
+  "Packages": [
+    "Honeymoon",
+    "Pilgrimage",
+    "Vacation",
+    "Business"
+  ],
+  "Destinations": {
+    "usa": [
+      "New York",
+      "Hawaai",
+      "Chicago",
+      "Naples",
+      "Dallas"
+    ],
+    "india": [
+      "Agra",
+      "Bengaluru",
+      "Chennai",
+      "Coimbatore",
+      "Goa",
+      "Hyderabad",
+      "Jaipur",
+      "Jammu",
+      "Kolkata",
+      "Kochi",
+      "Maldives",
+      "Nagpur",
+      "New Delhi",
+      "Pune",
+      "Rameshwaram"
+    ],
+    "uae": [
+      "Dubai"
+    ],
+    "qatar": [
+      "Doha"
+    ],
+    "mauritius": [
+      "Port Louis"
+    ],
+    "singapore": [
+      "Jurong"
+    ],
+    "indonesia": [
+      "Bali"
+    ],
+    "austria": [
+      "Vienna"
+    ],
+    "germany": [
+      "Berlin"
+    ],
+    "australia": [
+      "Melbourne",
+      "Sydney"
+    ],
+    "new zealand": [
+      "Auckland"
+    ],
+    "switzerland": [
+      "Geneva"
+    ]
+  }
+}
