@@ -12,7 +12,7 @@ header {
   height: 280px;
   background-color: #666;
   background-color: wheat;
-  background-image: url(./images/clouds.jpg);
+  background-image: url(../images/clouds.jpg);
   background-position: center;
   background-size: cover;
   padding-top: 100px;
@@ -25,4 +25,8 @@ main {
 div.grid1200 {
   width: 1200px;
   margin: 0px auto;
+}
+
+:root{
+  scroll-behavior: smooth;
 }

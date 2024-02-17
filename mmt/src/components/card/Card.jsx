@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./cardStyle.css";
+import { Heading, Text } from "@chakra-ui/react";
 
 const Card = (props) => {
   const [number, setNumber] = useState(0);
@@ -98,8 +99,8 @@ const Card = (props) => {
 
   return (
     <section className="card">
-      <h2>{props.sname}</h2>
-      <h5>{number} {props.stype} available</h5>
+      <Heading as={'h2'} fontSize={'22px'}>{props.sname}</Heading>
+      <Text color={'red'}>{number} {props.stype} available</Text>
       <div> {locations} </div>
     </section>
   );

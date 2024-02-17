@@ -1,17 +1,18 @@
-input[type="text"] {
+input[type="text"]#search {
   width: 70%;
-  height: 40px;
+  height: 41px;
   border: 1px solid #555;
   box-shadow: 3px solid #bbb;
   text-indent: 15px;
   border-radius: 20px 0px 0px 20px;
   margin-left: 60px;
   font-family: "Poppins", sans-serif;
+  padding: 10px;
 }
 
-input[type="submit"] {
+#search+input[type="submit"] {
   width: 20%;
-  height: 41px;
+  height: 39px;
   box-shadow: 3px solid #bbb;
   border-radius: 0px 20px 20px 0px;
   font-family: "Poppins", sans-serif;
