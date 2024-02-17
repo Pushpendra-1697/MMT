@@ -1,0 +1,55 @@
+section.card {
+  padding: 15px 30px;
+  margin-bottom: 50px;
+  box-shadow: 0px 3px 10px -6px rgba(0, 0, 0, 0.35);
+}
+
+section.card::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+section.card .journey {
+  border: 2px solid rgb(223, 220, 213);
+  margin: 20px 0px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding-top: 12px;
+}
+
+section.card .journey:hover {
+  border: 2px solid goldenrod;
+}
+
+section.card ul {
+  list-style-type: none;
+  padding: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+section.card ul li {
+  float: left;
+  margin-right: 30px;
+  display: table;
+  line-height: 36px;
+}
+
+section.card ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+section.card ul>li:not(:last-child):after {
+  content: "";
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 20px;
+  width: 36px;
+  height: 36px;
+  background-image: url(../../images/arrow.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
