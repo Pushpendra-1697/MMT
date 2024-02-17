@@ -1,1 +1,1 @@
-export const backend_url = "http://localhost:8000";
+export const backend_url = "https://mmt-server-9jiv.onrender.com";
