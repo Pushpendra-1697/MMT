@@ -3,7 +3,6 @@ import Navbar from "./components/navbar/Navbar";
 import AllRoutes from "./pages/AllRoutes";
 import Footer from "./components/Footer";
 
-
 const App = () => {
   return (
     <Box>

@@ -3,6 +3,7 @@ import "../Styles/App.css";
 import axios from "axios";
 import Widget from "../components/widget/Widget";
 import Card from "../components/card/Card";
+const jsURL = 'https://render-si4e.onrender.com/mmtData';
 
 const Home = () => {
     const [results, setResults] = useState([]);
@@ -13,7 +14,7 @@ const Home = () => {
         let categoryStates = [];
         let categoriesList = ["Buses", "Flights", "Hotels"];
         axios
-            .get("bookmytrip-service.json")
+            .get(jsURL)
             .then((response) => {
                 if (category !== "All") {
                     var bmtServices = response.data[category];
@@ -65,6 +66,7 @@ const Home = () => {
                             stype={category[index]}
                             sname={res.serviceName}
                             sloc={res.locations}
+                            serviceID={res.serviceID}
                         />
                     ))}
                 </div>

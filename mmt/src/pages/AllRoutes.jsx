@@ -9,13 +9,14 @@ import SingleRoute from './SingleRoute';
 
 const AllRoutes = () => {
     return (
-        <Box>
+        <Box display={'flex'} flexFlow={'column'}>
             <Routes>
                 <Route path='/' element={<Home />}></Route>
                 <Route path='/:serviceID' element={<SingleRoute />}></Route>
                 <Route path='/register' element={<Signup />}></Route>
                 <Route path='/login' element={<Login />}></Route>
             </Routes>
+            <Box flexGrow={1} minH={'20vh'}></Box>
         </Box>
     );
 }

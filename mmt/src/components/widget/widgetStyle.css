@@ -16,6 +16,7 @@ input[type="text"]#search {
   box-shadow: 3px solid #bbb;
   border-radius: 0px 20px 20px 0px;
   font-family: "Poppins", sans-serif;
+  cursor: pointer;
 }
 
 section.popup {

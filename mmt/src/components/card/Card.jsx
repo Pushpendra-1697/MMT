@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from "react";
 import "./cardStyle.css";
 import { Heading, Text } from "@chakra-ui/react";
+import { useNavigate } from 'react-router-dom';
 
 const Card = (props) => {
   const [number, setNumber] = useState(0);
   const [locations, setLocations] = useState([]);
+  const navigate = useNavigate();
+
 
   useEffect(() => {
     getRoute();
@@ -101,7 +104,7 @@ const Card = (props) => {
     <section className="card">
       <Heading as={'h2'} fontSize={'22px'}>{props.sname}</Heading>
       <Text color={'red'}>{number} {props.stype} available</Text>
-      <div> {locations} </div>
+      <div onClick={() => navigate(`/${props.serviceID}`)}> {locations} </div>
     </section>
   );
 };
