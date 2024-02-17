@@ -5,6 +5,7 @@ import Home from './Home';
 import Signup from './Signup';
 import Login from './Login';
 import SingleRoute from './SingleRoute';
+import SuccessPage from './SuccessPage';
 
 
 const AllRoutes = () => {
@@ -15,6 +16,7 @@ const AllRoutes = () => {
                 <Route path='/:serviceID' element={<SingleRoute />}></Route>
                 <Route path='/register' element={<Signup />}></Route>
                 <Route path='/login' element={<Login />}></Route>
+                <Route path='/success' element={<SuccessPage />} />
             </Routes>
             <Box flexGrow={1} minH={'20vh'}></Box>
         </Box>

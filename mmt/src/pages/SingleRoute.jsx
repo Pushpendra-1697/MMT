@@ -1,12 +1,13 @@
 import { Box, Button, Container, Heading, Text } from '@chakra-ui/react';
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-import { Navigate, useParams } from 'react-router-dom';
+import { Navigate, useNavigate, useParams } from 'react-router-dom';
 const jsURL = 'https://render-si4e.onrender.com/mmtData';
 
 const SingleRoute = () => {
   const params = useParams();
   const [data, setData] = useState();
+  const neviagte = useNavigate();
 
   useEffect(() => {
     getData();
@@ -44,7 +45,7 @@ const SingleRoute = () => {
       <Text>Type: {data.btype}</Text>
       <Text>Total {data.btype}: {data?.bDetails?.locations.length}</Text>
       <Text>Name: {data?.bDetails?.serviceName}</Text>
-      <Button>Book</Button>
+      <Box><Button colorScheme='teal' variant='solid' onClick={() => neviagte('/success')}>BOOK</Button></Box>
     </Container>
   );
 }
