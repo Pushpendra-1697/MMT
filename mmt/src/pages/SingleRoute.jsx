@@ -33,12 +33,12 @@ const SingleRoute = () => {
     }
   };
 
-  if (!data) {
-    return <Heading textAlign={'center'} mt={'7%'}>Loading.....</Heading>
-  }
   if (localStorage.getItem('token') === null) {
     return <Navigate to="/login" />
   };
+  if (!data) {
+    return <Heading textAlign={'center'} mt={'7%'}>Loading.....</Heading>
+  }
   return (
     <Container mt={{ base: '20%', md: '10%', sm: '20%' }} p={'20px'} textAlign={'center'} display={'flex'} flexFlow={'column'} gap={'10px'}>
       <Heading>{params.serviceID}</Heading>

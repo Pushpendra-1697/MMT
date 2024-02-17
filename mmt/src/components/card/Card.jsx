@@ -102,7 +102,7 @@ const Card = (props) => {
 
   return (
     <section className="card">
-      <Heading as={'h2'} fontSize={'22px'}>{props.sname}</Heading>
+      <Heading as={'h2'} fontSize={{ base: '28px', xl: '24px', md: '25px', sm: '28px' }}>{props.sname}</Heading>
       <Text color={'red'}>{number} {props.stype} available</Text>
       <div onClick={() => navigate(`/${props.serviceID}`)}> {locations} </div>
     </section>
