@@ -9,9 +9,6 @@ const PORT = process.env.PORT || 3000; //defined port 8080 (default 3000) exclud
 
 //Different Routers for different frontend pages in UI;
 const { userRouter } = require("./Routes/users.route");
-const { eventRouter } = require("./Routes/event.router");
-const { acceptRouter } = require("./Routes/accept.route");
-const { overviewRouter } = require("./Routes/overview.route");
 
 //Inbuilt middlewares;
 app.use(express.text());
@@ -20,14 +17,11 @@ app.use(cors());
 
 //Landing/default route;
 app.get("/", async (req, res) => {
-    res.send("Welcome in Playo App😊!!!");
+    res.send("Welcome in MMT App😊!!!");
 });
 
 //Fixed starting end points for making nested dynamic route;
 app.use('/users', userRouter);
-app.use('/events', eventRouter);
-app.use('/', acceptRouter);
-app.use('/overview', overviewRouter);
 
 //server code for start or live my server at defined port;
 httpServer.listen(PORT, async () => {
